@@ -1,8 +1,8 @@
 SKELETON MODEL
 
 npx sequelize-cli model:generate --name user --attributes name:string,email:string,password:string
-npx sequelize-cli model:generate --name todoList --attributes name:string
-npx sequelize-cli model:generate --name todoItem --attributes task:string,deadline:string
+npx sequelize-cli model:generate --name profile --attributes title:string,description:string
+npx sequelize-cli model:generate --name experience --attributes name:string,content:string,imageUrl:string
 
 SKELETON SEED
 

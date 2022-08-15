@@ -1,0 +1,21 @@
+
+  {
+  "development": {
+      "url": "postgres://rhisoslr:2q9YvxC8dujid-GmOFd-oJN5frNm6Fyd@tyke.db.elephantsql.com/rhisoslr",
+      "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
